@@ -1,0 +1,566 @@
+<!DOCTYPE html>
+<html lang="vi">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Grilli - Amazing & Delicious Food</title>
+    <meta name="title" content="Grilli - Amazing & Delicious Food" />
+    <meta
+      name="description"
+      content="This is a Restaurant html template made by codewithsadee"
+    />
+
+    <link rel="shortcut icon" href="./favicon.svg" type="image/svg+xml" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&family=Forum&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="./assets/css/style.css" />
+
+    <link rel="preload" as="image" href="./assets/images/hero-slider-1.jpg" />
+    <link rel="preload" as="image" href="./assets/images/hero-slider-2.jpg" />
+    <link rel="preload" as="image" href="./assets/images/hero-slider-3.jpg" />
+  </head>
+  <body id="top">
+    <div class="preload" data-preaload>
+      <div class="circle"></div>
+      <p class="text">Grilli</p>
+    </div>
+
+    <div class="topbar">
+      <div class="container">
+        <address class="topbar-item">
+          <div class="icon">
+            <ion-icon name="location-outline" aria-hidden="true"></ion-icon>
+          </div>
+
+          <span class="span">
+            556 Đại lộ Bình Dương, Thành phố Thủ Dầu Một
+          </span>
+        </address>
+
+        <div class="separator"></div>
+
+        <div class="topbar-item item-2">
+          <div class="icon">
+            <ion-icon name="time-outline" aria-hidden="true"></ion-icon>
+          </div>
+
+          <span class="span">Daily : 8.00 AM to 10.00 PM</span>
+        </div>
+
+        <a href="tel:0979326005" class="topbar-item link">
+          <div class="icon">
+            <ion-icon name="call-outline" aria-hidden="true"></ion-icon>
+          </div>
+
+          <span class="span">0979326005</span>
+        </a>
+
+        <div class="separator"></div>
+
+        <a href="23050150@student.bdu.edu.vn" class="topbar-item link">
+          <div class="icon">
+            <ion-icon name="mail-outline" aria-hidden="true"></ion-icon>
+          </div>
+
+          <span class="span">23050150@student.bdu.edu.vn</span>
+        </a>
+      </div>
+    </div>
+
+    <header class="header" data-header>
+      <div class="container">
+        <a href="#" class="logo">
+          <img
+            src="./assets/images/logo.svg"
+            width="160"
+            height="50"
+            alt="Grilli - Home"
+          />
+        </a>
+
+        <nav class="navbar" data-navbar>
+          <button class="close-btn" aria-label="close menu" data-nav-toggler>
+            <ion-icon name="close-outline" aria-hidden="true"></ion-icon>
+          </button>
+
+          <a href="#" class="logo">
+            <img
+              src="./assets/images/logo.svg"
+              width="160"
+              height="50"
+              alt="Grilli - Home"
+            />
+          </a>
+
+          
+          <ul class="navbar-list">
+            <li class="navbar-item" id="home">
+               <a href="./index.html" class="navbar-link hover-underline">
+                  <div class="separator"></div>
+                  <span class="span">Home</span>
+               </a>
+            </li>
+         
+            <li class="navbar-item" id="menus">
+               <a href="./menu.html" class="navbar-link hover-underline">
+                  <div class="separator"></div>
+                  <span class="span">Menus</span>
+               </a>
+            </li>
+         
+            <li class="navbar-item" id="about">
+               <a href="./profile.html" class="navbar-link hover-underline active">
+                  <div class="separator"></div>
+                  <span class="span">About Us</span>
+               </a>
+            </li>
+         
+            <li class="navbar-item" id="chefs">
+               <a href="./chefs.html" class="navbar-link hover-underline">
+                  <div class="separator"></div>
+                  <span class="span">Our Chefs</span>
+               </a>
+            </li>
+         
+            <li class="navbar-item" id="contact">
+              <a href="./contact.html" class="navbar-link hover-underline">
+
+                  <div class="separator"></div>
+                  <span class="span">Contact</span>
+               </a>
+            </li>
+         </ul>
+         
+
+          <div class="text-center">
+            <p class="headline-1 navbar-title">Visit Us</p>
+
+            <address class="body-4">
+              556 Đại lộ Bình Dương, Thành phố Thủ Dầu Một
+            </address>
+
+            <p class="body-4 navbar-text">Open: 9.30 am - 2.30pm</p>
+
+            <a href="23050150@student.bdu.edu.vn" class="body-4 sidebar-link"
+              >23050150@student.bdu.edu.vn</a
+            >
+
+            <div class="separator"></div>
+
+            <p class="contact-label">Booking Request</p>
+
+            <a
+              href="tel:0979326005"
+              class="body-1 contact-number hover-underline"
+            >
+              0979326005
+            </a>
+          </div>
+        </nav>
+
+       
+
+        <button class="nav-open-btn" aria-label="open menu" data-nav-toggler>
+          <span class="line line-1"></span>
+          <span class="line line-2"></span>
+          <span class="line line-3"></span>
+        </button>
+
+        <div class="overlay" data-nav-toggler data-overlay></div>
+      </div>
+    </header>
+<!--CV-->
+    <br> <br> <br> <br>
+    <section class="about-us">
+      <!-- 3 Hình ảnh GitHub với nền trống -->
+      <div class="github-team">
+        <div class="github-item">
+          <a href="https://hangtr29.github.io/tui/?authuser=0" target="_blank">
+            <div class="github-avatar-container">
+              <img src="assets/images/tui.jpg" alt="Ngọc Hằng" class="github-avatar">
+              <p class="github-name">Ngọc Hằng</p> <!-- Thêm tên ảnh -->
+            </div>
+          </a>
+        </div>
+        <div class="github-item">
+          <a href="https://tuan-nguyenak37.github.io/MY-CV/cv/?authuser=0" target="_blank">
+            <div class="github-avatar-container">
+              <img src="assets/images/Tuan.jpg" alt="Văn Tuấn" class="github-avatar">
+              <p class="github-name">Văn Tuấn</p> <!-- Thêm tên ảnh -->
+            </div>
+          </a>
+        </div>
+        <div class="github-item">
+          <a href="https://legiabao01.github.io/giabaole/" target="_blank">
+            <div class="github-avatar-container">
+              <img src="assets/images/LGBao.jpg" alt="Gia Bảo" class="github-avatar">
+              <p class="github-name">Gia Bảo</p> <!-- Thêm tên ảnh -->
+            </div>
+          </a>
+        </div>
+      </div>
+    </section>
+    
+    
+  <!--STORY-->
+  <!-- 
+        - #ABOUT
+      -->
+
+      
+      <section
+      class="section about text-center"
+      aria-labelledby="about-label"
+      id="about"
+    >
+      <div class="container">
+        <div class="about-content">
+          <p class="label-2 section-subtitle" id="about-label">Our Story</p>
+
+          <h2 class="headline-1 section-title">
+            Bắt đầu từ một đam mê ẩm thực
+          </h2>
+
+          <p class="section-text">
+            Bắt đầu từ một đam mê mãnh liệt với ẩm thực, không chỉ là yêu thích ăn ngon, mà là khao khát tạo ra những món ăn mang hương vị riêng biệt, khiến người thưởng thức phải mỉm cười. 
+            Và rồi, với tất cả nhiệt huyết, tôi biến đam mê đó thành hiện thực – Grilli restaurant, một không gian nơi ẩm thực không chỉ ngon mà còn chạm đến cảm xúc.
+          </p>
+
+          <div class="contact-label">Đặt bàn ngay</div>
+
+          <a
+            href="tel:0979326005"
+            class="body-1 contact-number hover-underline"
+            >0979326005</a
+          >
+        </div>
+
+        <figure class="about-banner">
+          <img
+            src="./assets/images/about-banner.jpg"
+            width="570"
+            height="570"
+            loading="lazy"
+            alt="about banner"
+            class="w-100"
+            data-parallax-item
+            data-parallax-speed="1"
+          />
+
+          <div
+            class="abs-img abs-img-1 has-before"
+            data-parallax-item
+            data-parallax-speed="1.75"
+          >
+            <img
+              src="./assets/images/about-abs-image.jpg"
+              width="285"
+              height="285"
+              loading="lazy"
+              alt=""
+              class="w-100"
+            />
+          </div>
+
+          <div class="abs-img abs-img-2 has-before">
+            <img
+              src="./assets/images/badge-2.png"
+              width="133"
+              height="134"
+              loading="lazy"
+              alt=""
+            />
+          </div>
+        </figure>
+
+        <img
+          src="./assets/images/shape-3.png"
+          width="197"
+          height="194"
+          loading="lazy"
+          alt=""
+          class="shape"
+        />
+      </div>
+    </section>
+    <!--EVENT-->
+    <section class="section event bg-black-10" aria-label="event">
+      <div class="container">
+        <p class="section-subtitle label-2 text-center">
+          Hoạt động gần đây
+        </p>
+
+        <h2 class="section-title headline-1 text-center">
+          Sự kiện sắp tới
+        </h2>
+
+        <ul class="grid-list">
+          <li>
+            <div class="event-card has-before hover:shine">
+              <div
+                class="card-banner img-holder"
+                style="--width: 350; --height: 450"
+              >
+                <img
+                  src="./assets/images/event-1.jpg"
+                  width="350"
+                  height="450"
+                  loading="lazy"
+                  alt=""
+                  class="img-cover"
+                />
+
+                <time class="publish-date label-2" datetime="2025-06-15"
+                  >15/06/2025</time
+                >
+              </div>
+
+              <div class="card-content">
+                <p class="card-subtitle label-2 text-center">
+                  Hương vị của sự nồng nàn
+                </p>
+
+                <h3 class="card-title title-2 text-center">
+                  Chạm đến trái tim của những kẻ sành sỏi nhất
+                </h3>
+              </div>
+            </div>
+          </li>
+
+          <li>
+            <div class="event-card has-before hover:shine">
+              <div
+                class="card-banner img-holder"
+                style="--width: 350; --height: 450"
+              >
+                <img
+                  src="./assets/images/event-2.jpg"
+                  width="350"
+                  height="450"
+                  loading="lazy"
+                  alt="Flavour so good you’ll try to eat with your eyes."
+                  class="img-cover"
+                />
+
+                <time class="publish-date label-2" datetime="2025-08-09"
+                  >08/09/2025</time
+                >
+              </div>
+
+              <div class="card-content">
+                <p class="card-subtitle label-2 text-center">
+                  Healthy Food
+                </p>
+
+                <h3 class="card-title title-2 text-center">
+                  Ăn sạch - sống xanh
+                </h3>
+              </div>
+            </div>
+          </li>
+
+          <li>
+            <div class="event-card has-before hover:shine">
+              <div
+                class="card-banner img-holder"
+                style="--width: 350; --height: 450"
+              >
+                <img
+                  src="./assets/images/event-3.jpg"
+                  width="350"
+                  height="450"
+                  loading="lazy"
+                  alt="Flavour so good you’ll try to eat with your eyes."
+                  class="img-cover"
+                />
+
+                <time class="publish-date label-2" datetime="2025-12-03"
+                  >03/12/2025</time
+                >
+              </div>
+
+              <div class="card-content">
+                <p class="card-subtitle label-2 text-center">
+                  Món ăn của mọi nhà
+                </p>
+
+                <h3 class="card-title title-2 text-center">
+                  Chia sẻ công thức cùng các đầu bếp nhà hàng
+                </h3>
+              </div>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </section>
+  </article>
+
+    <main>
+    <footer
+      class="footer section has-bg-image text-center"
+      style="background-image: url('./assets/images/footer-bg.jpg')"
+    >
+      <div class="container">
+        <div class="footer-top grid-list">
+          <div class="footer-brand has-before has-after">
+            <a href="#" class="logo">
+              <img
+                src="./assets/images/logo.svg"
+                width="160"
+                height="50"
+                loading="lazy"
+                alt="grilli home"
+              />
+            </a>
+
+            <address class="body-4">
+              556 đại lộ bình dương thành phố thủ dầu một
+            </address>
+
+            <a href="23050150@student.bdu.edu.vn" class="body-4 contact-link"
+              >23050150@student.bdu.edu.vn</a
+            >
+
+            <a href="tel:0979326005" class="body-4 contact-link"
+              >Đặt bàn ngay : 0979326005</a
+            >
+
+            <p class="body-4">Open : 09:00 AM - 01:00 PM</p>
+
+            <div class="wrapper">
+              <div class="separator"></div>
+              <div class="separator"></div>
+              <div class="separator"></div>
+            </div>
+
+            <p class="title-1">Get News & Offers</p>
+
+            <p class="label-1">
+              Subscribe us & Get <span class="span">25% Off.</span>
+            </p>
+
+            <form action="" class="input-wrapper">
+              <div class="icon-wrapper">
+                <ion-icon name="mail-outline" aria-hidden="true"></ion-icon>
+
+                <input
+                  type="email"
+                  name="email_address"
+                  placeholder="Your email"
+                  autocomplete="off"
+                  class="input-field"
+                />
+              </div>
+
+              <button type="submit" class="btn btn-secondary">
+                <span class="text text-1">Subscribe</span>
+
+                <span class="text text-2" aria-hidden="true">Subscribe</span>
+              </button>
+            </form>
+          </div>
+
+          <ul class="footer-list">
+            <li>
+              <a href="#" class="label-2 footer-link hover-underline">Home</a>
+            </li>
+
+            <li>
+              <a href="#" class="label-2 footer-link hover-underline">Menus</a>
+            </li>
+
+            <li>
+              <a href="#" class="label-2 footer-link hover-underline"
+                >About Us</a
+              >
+            </li>
+
+            <li>
+              <a href="#" class="label-2 footer-link hover-underline"
+                >Our Chefs</a
+              >
+            </li>
+
+            <li>
+              <a href="#" class="label-2 footer-link hover-underline"
+                >Contact</a
+              >
+            </li>
+          </ul>
+
+          <ul class="footer-list">
+            <li>
+              <a href="https://www.facebook.com/trongtim.khoang.75/" target="_blank" class="label-2 footer-link hover-underline"
+                >Facebook</a
+              >
+            </li>
+
+            <li>
+              <a href="https://www.instagram.com/tuan_maliketh/" target="_blank" class="label-2 footer-link hover-underline"
+                >Instagram</a
+              >
+            </li>
+
+            
+
+            <li>
+              <a href="https://www.youtube.com/watch?v=6uT8wGtB3yQ" class="label-2 footer-link hover-underline"
+                >Youtube</a
+              >
+            </li>
+
+            <li>
+              <a href="https://www.bdu.edu.vn/" target="_blank" class="label-2 footer-link hover-underline"
+                >Google Map</a
+              >
+            </li>
+          </ul>
+        </div>
+
+        <div class="footer-bottom">
+          
+
+         
+        </div>
+      </div>
+    </footer>
+
+    <!-- 
+    - #BACK TO TOP
+  -->
+
+    <a
+      href="#top"
+      class="back-top-btn active"
+      aria-label="back to top"
+      data-back-top-btn
+    >
+      <ion-icon name="chevron-up" aria-hidden="true"></ion-icon>
+    </a>
+
+    <!-- 
+    - custom js link
+  -->
+    <script src="./assets/js/script.js"></script>
+
+    <!-- 
+    - ionicon link
+  -->
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+  </body>
+</html>

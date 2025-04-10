@@ -1,0 +1,923 @@
+<!DOCTYPE html>
+<html lang="vi">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Grilli - Amazing & Delicious Food</title>
+    <meta name="title" content="Grilli - Amazing & Delicious Food" />
+    <meta
+      name="description"
+      content="This is a Restaurant html template made by codewithsadee"
+    />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js"></script>
+
+    <link rel="shortcut icon" href="./favicon.svg" type="image/svg+xml" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&family=Forum&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="./assets/css/style.css" />
+
+    <link rel="preload" as="image" href="./assets/images/hero-slider-1.jpg" />
+    <link rel="preload" as="image" href="./assets/images/hero-slider-2.jpg" />
+    <link rel="preload" as="image" href="./assets/images/hero-slider-3.jpg" />
+    
+  </head>
+
+  <body id="top">
+    <div class="preload" data-preaload>
+      <div class="circle"></div>
+      <p class="text">Grilli</p>
+    </div>
+
+    <div class="topbar">
+      <div class="container">
+        <address class="topbar-item">
+          <div class="icon">
+            <ion-icon name="location-outline" aria-hidden="true"></ion-icon>
+          </div>
+
+          <span class="span">
+            556 Đại lộ Bình Dương, Thành phố Thủ Dầu Một
+          </span>
+        </address>
+
+        <div class="separator"></div>
+
+        <div class="topbar-item item-2">
+          <div class="icon">
+            <ion-icon name="time-outline" aria-hidden="true"></ion-icon>
+          </div>
+
+          <span class="span">Daily : 8.00 AM to 10.00 PM</span>
+        </div>
+
+        <a href="tel:+11234567890" class="topbar-item link">
+          <div class="icon">
+            <ion-icon name="call-outline" aria-hidden="true"></ion-icon>
+          </div>
+
+          <span class="span">0979326005</span>
+        </a>
+
+        <div class="separator"></div>
+
+        <a href="mailto:booking@restaurant.com" class="topbar-item link">
+          <div class="icon">
+            <ion-icon name="mail-outline" aria-hidden="true"></ion-icon>
+          </div>
+
+          <span class="span">23050150@student.bdu.edu.vn</span>
+        </a>
+      </div>
+    </div>
+
+    <header class="header" data-header>
+      <div class="container">
+        <a href="#" class="logo">
+          <img
+            src="./assets/images/logo.svg"
+            width="160"
+            height="50"
+            alt="Grilli - Home"
+          />
+        </a>
+
+        <nav class="navbar" data-navbar>
+          <button class="close-btn" aria-label="close menu" data-nav-toggler>
+            <ion-icon name="close-outline" aria-hidden="true"></ion-icon>
+          </button>
+
+          <a href="#" class="logo">
+            <img
+              src="./assets/images/logo.svg"
+              width="160"
+              height="50"
+              alt="Grilli - Home"
+            />
+          </a>
+
+          
+          <ul class="navbar-list">
+            <li class="navbar-item" id="home">
+               <a href="./index.html" class="navbar-link hover-underline">
+                  <div class="separator"></div>
+                  <span class="span">Home</span>
+               </a>
+            </li>
+         
+            <li class="navbar-item" id="menus">
+               <a href="./menu.html" class="navbar-link hover-underline active">
+                  <div class="separator"></div>
+                  <span class="span">Menus</span>
+               </a>
+            </li>
+         
+            <li class="navbar-item" id="about">
+               <a href="./profile.html" class="navbar-link hover-underline">
+                  <div class="separator"></div>
+                  <span class="span">About Us</span>
+               </a>
+            </li>
+         
+            <li class="navbar-item" id="chefs">
+               <a href="./chefs.html" class="navbar-link hover-underline">
+                  <div class="separator"></div>
+                  <span class="span">Our Chefs</span>
+               </a>
+            </li>
+         
+            <li class="navbar-item" id="contact">
+              <a href="./contact.html" class="navbar-link hover-underline">
+
+                  <div class="separator"></div>
+                  <span class="span">Contact</span>
+               </a>
+            </li>
+         </ul>
+         
+
+          <div class="text-center">
+            <p class="headline-1 navbar-title">Visit Us</p>
+
+            <address class="body-4">
+              556 Đại lộ Bình Dương, Thành phố Thủ Dầu Một
+            </address>
+
+            <p class="body-4 navbar-text">Open: 9.30 am - 2.30pm</p>
+
+            <a href="mailto:gotri4018@gmail.com" class="body-4 sidebar-link"
+              >23050150@student.bdu.edu.vn</a
+            >
+
+            <div class="separator"></div>
+
+            <p class="contact-label">Booking Request</p>
+
+            <a
+              href="tel:0979326005"
+              class="body-1 contact-number hover-underline"
+            >
+              0979326005
+            </a>
+          </div>
+        </nav>
+
+        
+
+        <button class="nav-open-btn" aria-label="open menu" data-nav-toggler>
+          <span class="line line-1"></span>
+          <span class="line line-2"></span>
+          <span class="line line-3"></span>
+        </button>
+
+        <div class="overlay" data-nav-toggler data-overlay></div>
+      </div>
+    </header>
+
+<!--    <main>
+      <article>
+        <section class="hero text-center" aria-label="home" id="home">
+          <ul class="hero-slider" data-hero-slider>
+            <li class="slider-item active" data-hero-slider-item>
+              <div class="slider-bg">
+                <img
+                  src="./assets/images/2024-06-17-21-04-20-BR8S4-scaled-e1724039974787.jpg"
+                  width="1880"
+                  height="950"
+                  style="filter: brightness(70%);"
+                  alt=""
+                  class="img-cover"
+                  
+                />
+              </div>
+              <h2 class="special" style="margin-top: -200pX;">
+                Special Menus
+                
+              </h2>
+
+
+
+              <p class="label-2 section-subtitle slider-reveal" style="margin-top: -160pX;">
+                
+              </p>
+
+              <h1 class="display-1 hero-title slider-reveal" style="margin-top: -100pX;">
+                Thịt bò Wagyu
+              </h1>
+
+              
+
+              
+            </li>
+
+            <li class="slider-item" data-hero-slider-item>
+              <div class="slider-bg">
+                <img
+                  src="./assets/images/KingCrab-2.jpg"
+                  width="1880"
+                  height="950"
+                  style="filter: brightness(70%);"
+                  alt=""
+                  class="img-cover"
+                />
+              </div>
+              <h2 class="special" style="margin-top: -200pX;">
+                Special Menus
+                
+              </h2>
+              
+
+              <p class="label-2 section-subtitle slider-reveal" style="margin-top: -160pX;">
+                
+              </p>
+
+              <h1 class="display-1 hero-title slider-reveal" style="margin-top: -100pX;">
+                King Crab
+                
+              </h1>
+
+              
+
+             >
+            </li>
+
+            <li class="slider-item" data-hero-slider-item>
+              <div class="slider-bg">
+                <img
+                  src="./assets/images/moi-dieu-ban-can-biet-ve-mon-an-quy-toc-beef-wellington-1629795011-9.jpg"
+                  width="1880"
+                  height="950"
+                  alt=""
+                  class="img-cover"
+                  style="filter: brightness(70%);"
+                />
+              </div>
+              <h2 class="special" style="margin-top: -200pX;">
+                Special Menus
+                
+              </h2>
+
+              <p class="label-2 section-subtitle slider-reveal" style="margin-top: -160pX;">
+                
+              </p>
+
+              <h1 class="display-1 hero-title slider-reveal" style="margin-top: -100pX;">
+                Bò Wellington
+              </h1>
+
+              
+
+              
+            </li>
+          </ul>
+
+          <button
+            class="slider-btn prev"
+            aria-label="slide to previous"
+            data-prev-btn
+          >
+            <ion-icon name="chevron-back"></ion-icon>
+          </button>
+
+          <button
+            class="slider-btn next"
+            aria-label="slide to next"
+            data-next-btn
+          >
+            <ion-icon name="chevron-forward"></ion-icon>
+          </button>
+
+          <a href="#duoi" class="hero-btn has-after">
+            <img
+              src="./assets/images/hero-icon.png"
+              width="48"
+              height="48"
+              alt="booking icon"
+            />
+
+            <span class="label-2 text-center span">Book A Table</span>
+          </a>
+        </section>
+-->
+
+
+        <!-- 
+        - #SERVICE
+      -->
+      
+      
+<br> <br> 
+      <section class="section service bg-black-10 text-center" aria-label="service">
+          <div class="row">
+            <div class="col-12 col-md-3 mb-4">
+              <div class="service-card shadow-lg rounded-lg overflow-hidden transform-hover">
+                <a href="#" class="has-before hover:shine">
+                  <figure class="card-banner img-holder" style="--width: 285; --height: 336">
+                    <img src="./assets/images/service-1.jpg" width="285" height="336" loading="lazy" alt="Breakfast" class="img-cover" />
+                  </figure>
+                </a>
+                <div class="card-content">
+                  <h3 class="title-4 card-title">
+                    <a href="#">Món chính</a>
+                  </h3>
+                </div>
+              </div>
+            </div>
+      
+            <div class="col-12 col-md-3 mb-4">
+              <div class="service-card shadow-lg rounded-lg overflow-hidden transform-hover">
+                <a href="#" class="has-before hover:shine">
+                  <figure class="card-banner img-holder" style="--width: 285; --height: 336">
+                    <img src="./assets/images/service-2.jpg" width="285" height="336" loading="lazy" alt="Appetizers" class="img-cover" />
+                  </figure>
+                </a>
+                <div class="card-content">
+                  <h3 class="title-4 card-title">
+                    <a href="#">Món khai vị</a>
+                  </h3>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-12 col-md-3 mb-4">
+              <div class="service-card shadow-lg rounded-lg overflow-hidden transform-hover">
+                <a href="#" class="has-before hover:shine">
+                  <figure class="card-banner img-holder" style="--width: 285; --height: 336">
+                    <img src="./assets/images/trangmieng1.avif" width="285" height="336" loading="lazy" alt="Desserts" class="img-cover" />
+                  </figure>
+                </a>
+                <div class="card-content">
+                  <h3 class="title-4 card-title">
+                    <a href="#">Tráng miệng</a>
+                  </h3>
+                </div>
+              </div>
+            </div>
+      
+            <div class="col-12 col-md-3 mb-4">
+              <div class="service-card shadow-lg rounded-lg overflow-hidden transform-hover">
+                <a href="#" class="has-before hover:shine">
+                  <figure class="card-banner img-holder" style="--width: 285; --height: 336">
+                    <img src="./assets/images/service-3.jpg" width="285" height="336" loading="lazy" alt="Drinks" class="img-cover" />
+                  </figure>
+                </a>
+                <div class="card-content">
+                  <h3 class="title-4 card-title">
+                    <a href="#">Thức uống</a>
+                  </h3>
+                </div>
+              </div>
+            </div>
+      
+            
+          </div>
+      
+          <img src="./assets/images/shape-1.png" width="246" height="412" loading="lazy" alt="shape" class="shape shape-1 move-anim" />
+          <img src="./assets/images/shape-2.png" width="343" height="345" loading="lazy" alt="shape" class="shape shape-2 move-anim" />
+        </div>
+      </section>
+
+
+        <!-- 
+       
+        - #MENU
+      -->
+
+      <section id="menu-tabs" class="py-5 bg-dark text-white">
+        <div class="container">
+          <h2 class="text-center fw-bold text-uppercase mb-4 text-warning">Thực Đơn Nhà Hàng</h2>
+      
+          <!-- Tabs -->
+          <ul class="nav nav-tabs justify-content-center mb-4 border-0" id="menuTab" role="tablist">
+            <li class="nav-item" role="presentation">
+              <button class="nav-link active fw-bold me-2" id="main-tab" data-bs-toggle="tab" data-bs-target="#main" type="button" role="tab">
+                Món chính
+              </button>
+            </li>
+            <li class="nav-item" role="presentation">
+              <button class="nav-link fw-bold me-2" id="vege-tab" data-bs-toggle="tab" data-bs-target="#vege" type="button" role="tab">
+                Món khai vị
+              </button>
+            </li>
+            <li class="nav-item" role="presentation">
+              <button class="nav-link fw-bold" id="dessert-tab" data-bs-toggle="tab" data-bs-target="#dessert" type="button" role="tab">
+                Tráng miệng
+              </button>
+            </li>
+            <li class="nav-item" role="presentation">
+              <button class="nav-link fw-bold" id="beverage-tab" data-bs-toggle="tab" data-bs-target="#beverage" type="button" role="tab">
+                Thức uống
+              </button>
+            </li>
+          </ul>
+          
+          
+          
+          <!-- Tab content -->
+          <div class="tab-content" id="menuTabContent">
+            <!-- Món chính -->
+            <div class="tab-pane fade show active" id="main" role="tabpanel">
+              <div class="row row-cols-1 row-cols-md-3 g-4">
+                <div class="col">
+                  <div class="card h-100 shadow border-0 rounded-4 hover-shadow">
+                    <img src="./assets/images/mon1.avif" class="card-img-top rounded-4" alt="Greek Salad" style="height: 300px; object-fit: cover;">
+                    <div class="card-body bg-dark text-white">
+                      <h5 class="card-title fw-bold fs-3 text-start">Sườn nướng <span class="float-end text-success">$ 250.000 VNĐ</span></h5>
+                      <p class="card-text text-muted text-center">Sườn non kết hợp cùng với trứng ốp la</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="card h-100 shadow border-0 rounded-4 hover-shadow">
+                    <img src="./assets/images/mon2.avif" class="card-img-top rounded-4" alt="Lasagne" style="height: 300px; object-fit: cover;">
+                    <div class="card-body bg-dark text-white">
+                      <h5 class="card-title fw-bold fs-3 text-start">Thịt nướng tảng mỹ <span class="float-end text-success">$ 400.000 VNĐ</span></h5>
+                      <p class="card-text text-muted text-center">Thịt sườn bò non nướng chín chậm</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="card h-100 shadow border-0 rounded-4 hover-shadow">
+                    <img src="./assets/images/mon3.avif" class="card-img-top rounded-4" alt="Butternut Pumpkin" style="height: 300px; object-fit: cover;">
+                    <div class="card-body bg-dark text-white">
+                      <h5 class="card-title fw-bold fs-3 text-start">Bò tái kiểu pháp <span class="float-end text-success">$ 500.000  VNĐ</span></h5>
+                      <p class="card-text text-muted text-center">Bò tái mền ngọt và mịn</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="card h-100 shadow border-0 rounded-4 hover-shadow">
+                    <img src="./assets/images/mon4.avif" class="card-img-top rounded-4" alt="Lasagne" style="height: 300px; object-fit: cover;">
+                    <div class="card-body bg-dark text-white">
+                      <h5 class="card-title fw-bold fs-3 text-start">Mỳ ý <span class="float-end text-success">$ 540.000 VNĐ</span></h5>
+                      <p class="card-text text-muted text-center">Thịt xay, rau, sốt cà chua, gia vị và phô mai</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="card h-100 shadow border-0 rounded-4 hover-shadow">
+                    <img src="./assets/images/mon6.avif" class="card-img-top rounded-4" alt="Lasagne" style="height: 300px; object-fit: cover;">
+                    <div class="card-body bg-dark text-white">
+                      <h5 class="card-title fw-bold fs-3 text-start">Gà bơ <span class="float-end text-success">$ 400.000 VNĐ</span></h5>
+                      <p class="card-text text-muted text-center">Thịt gag thượng hạng cùng với phô mai </p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="card h-100 shadow border-0 rounded-4 hover-shadow">
+                    <img src="./assets/images/mon7.avif" class="card-img-top rounded-4" alt="Lasagne" style="height: 300px; object-fit: cover;">
+                    <div class="card-body bg-dark text-white">
+                      <h5 class="card-title fw-bold fs-3 text-start">Lasagne <span class="float-end text-success">$ 200.00 VNĐ</span></h5>
+                      <p class="card-text text-muted text-center">rau, trứng</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="card h-100 shadow border-0 rounded-4 hover-shadow">
+                    <img src="./assets/images/mon8.avif" class="card-img-top rounded-4" alt="Lasagne" style="height: 300px; object-fit: cover;">
+                    <div class="card-body bg-dark text-white">
+                      <h5 class="card-title fw-bold fs-3 text-start">Súp lạnh Tarator Bulgaria <span class="float-end text-success">$ 250.000 VNĐ</span></h5>
+                      <p class="card-text text-muted text-center"> Món ăn giúp giải nhiệt mùa hè vạn người mê ở xứ sở hoa hồng</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="card h-100 shadow border-0 rounded-4 hover-shadow">
+                    <img src="./assets/images/mon2.avif" class="card-img-top rounded-4" alt="Lasagne" style="height: 300px; object-fit: cover;">
+                    <div class="card-body bg-dark text-white">
+                      <h5 class="card-title fw-bold fs-3 text-start">Thịt nướng tảng mỹ  <span class="float-end text-success">$ 400.000 VNĐ</span></h5>
+                      <p class="card-text text-muted text-center">Thịt sườn bò non nướng chín chậm</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="card h-100 shadow border-0 rounded-4 hover-shadow">
+                    <img src="./assets/images/mon9.avif" class="card-img-top rounded-4" alt="Lasagne" style="height: 300px; object-fit: cover;">
+                    <div class="card-body bg-dark text-white">
+                      <h5 class="card-title fw-bold fs-3 text-start">Lasagne <span class="float-end text-success">$40.00</span></h5>
+                      <p class="card-text text-muted text-center">Thịt xay, rau, sốt cà chua, gia vị và phô mai</p>
+                    </div>
+                  </div>
+                </div>
+                
+              </div>
+            </div>
+            
+            <!-- Món khai vị -->
+            <div class="tab-pane fade" id="vege" role="tabpanel">
+              <div class="row row-cols-1 row-cols-md-3 g-4">
+                <div class="col">
+                  <div class="card h-100 shadow border-0 rounded-4 hover-shadow">
+                    <img src="./assets/images/khaivi1.avif" class="card-img-top rounded-4" alt="Veggie Stir-fry" style="height: 300px; object-fit: cover;">
+                    <div class="card-body bg-dark text-white">
+                      <h5 class="card-title fw-bold fs-3 text-start">Veggie Stir-fry <span class="float-end text-success">$15.00</span></h5>
+                      <p class="card-text text-muted text-center">Rau củ xào giòn, gia vị tự nhiên</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="card h-100 shadow border-0 rounded-4 hover-shadow">
+                    <img src="./assets/images/khaivi2.avif" class="card-img-top rounded-4" alt="Tofu Salad" style="height: 300px; object-fit: cover;">
+                    <div class="card-body bg-dark text-white">
+                      <h5 class="card-title fw-bold fs-3 text-start">Tofu Salad <span class="float-end text-success">$12.50</span></h5>
+                      <p class="card-text text-muted text-center">Đậu hũ chiên giòn, rau sống, nước sốt chua ngọt</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="card h-100 shadow border-0 rounded-4 hover-shadow">
+                    <img src="./assets/images/khaivi6.avif" class="card-img-top rounded-4" alt="Vegetable Burger" style="height: 300px; object-fit: cover;">
+                    <div class="card-body bg-dark text-white">
+                      <h5 class="card-title fw-bold fs-3 text-start">Vegetable Burger <span class="float-end text-success">$18.00</span></h5>
+                      <p class="card-text text-muted text-center">Bánh mì rau củ, gia vị tự nhiên, kèm sốt chay</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="card h-100 shadow border-0 rounded-4 hover-shadow">
+                    <img src="./assets/images/khaivi3.avif" class="card-img-top rounded-4" alt="Vegetable Burger" style="height: 300px; object-fit: cover;">
+                    <div class="card-body bg-dark text-white">
+                      <h5 class="card-title fw-bold fs-3 text-start">Vegetable Burger <span class="float-end text-success">$18.00</span></h5>
+                      <p class="card-text text-muted text-center">Bánh mì rau củ, gia vị tự nhiên, kèm sốt chay</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="card h-100 shadow border-0 rounded-4 hover-shadow">
+                    <img src="./assets/images/khaivi4.avif" class="card-img-top rounded-4" alt="Vegetable Burger" style="height: 300px; object-fit: cover;">
+                    <div class="card-body bg-dark text-white">
+                      <h5 class="card-title fw-bold fs-3 text-start">Vegetable Burger <span class="float-end text-success">$18.00</span></h5>
+                      <p class="card-text text-muted text-center">Bánh mì rau củ, gia vị tự nhiên, kèm sốt chay</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="card h-100 shadow border-0 rounded-4 hover-shadow">
+                    <img src="./assets/images/khaivi5.avif" class="card-img-top rounded-4" alt="Vegetable Burger" style="height: 300px; object-fit: cover;">
+                    <div class="card-body bg-dark text-white">
+                      <h5 class="card-title fw-bold fs-3 text-start">Vegetable Burger <span class="float-end text-success">$18.00</span></h5>
+                      <p class="card-text text-muted text-center">Bánh mì rau củ, gia vị tự nhiên, kèm sốt chay</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            
+            <!-- Tráng miệng -->
+            <div class="tab-pane fade" id="dessert" role="tabpanel">
+              <div class="row row-cols-1 row-cols-md-3 g-4">
+                <div class="col">
+                  <div class="card h-100 shadow border-0 rounded-4 hover-shadow">
+                    <img src="./assets/images/trangmieng1.avif" class="card-img-top rounded-4" alt="Dessert item" style="height: 300px; object-fit: cover;">
+                    <div class="card-body bg-dark text-white">
+                      <h5 class="card-title fw-bold fs-3 text-start">Cá hồi áp chảo <span class="float-end text-success">$35.00</span></h5>
+                      <p class="card-text text-muted text-center">Cá hồi tươi nướng, dùng kèm sốt chanh dây</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="card h-100 shadow border-0 rounded-4 hover-shadow">
+                    <img src="./assets/images/trangmieng2.avif" class="card-img-top rounded-4" alt="Dessert item" style="height: 300px; object-fit: cover;">
+                    <div class="card-body bg-dark text-white">
+                      <h5 class="card-title fw-bold fs-3 text-start">Trái cây tươi <span class="float-end text-success">$10.00</span></h5>
+                      <p class="card-text text-muted text-center">Mâm trái cây tươi theo mùa, nhẹ nhàng và ngon miệng</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="card h-100 shadow border-0 rounded-4 hover-shadow">
+                    <img src="./assets/images/trangmieng7.avif" class="card-img-top rounded-4" alt="Dessert item" style="height: 300px; object-fit: cover;">
+                    <div class="card-body bg-dark text-white">
+                      <h5 class="card-title fw-bold fs-3 text-start">Chocolate Cake <span class="float-end text-success">$20.00</span></h5>
+                      <p class="card-text text-muted text-center">Bánh chocolate mịn, ngọt ngào, hấp dẫn</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="card h-100 shadow border-0 rounded-4 hover-shadow">
+                    <img src="./assets/images/trangmieng5.avif" class="card-img-top rounded-4" alt="Dessert item" style="height: 300px; object-fit: cover;">
+                    <div class="card-body bg-dark text-white">
+                      <h5 class="card-title fw-bold fs-3 text-start">Trái cây tươi <span class="float-end text-success">$10.00</span></h5>
+                      <p class="card-text text-muted text-center">Mâm trái cây tươi theo mùa, nhẹ nhàng và ngon miệng</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="card h-100 shadow border-0 rounded-4 hover-shadow">
+                    <img src="./assets/images/trangmieng6.avif" class="card-img-top rounded-4" alt="Dessert item" style="height: 300px; object-fit: cover;">
+                    <div class="card-body bg-dark text-white">
+                      <h5 class="card-title fw-bold fs-3 text-start">Trái cây tươi <span class="float-end text-success">$10.00</span></h5>
+                      <p class="card-text text-muted text-center">Mâm trái cây tươi theo mùa, nhẹ nhàng và ngon miệng</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="card h-100 shadow border-0 rounded-4 hover-shadow">
+                    <img src="./assets/images/trangmieng8.avif" class="card-img-top rounded-4" alt="Dessert item" style="height: 300px; object-fit: cover;">
+                    <div class="card-body bg-dark text-white">
+                      <h5 class="card-title fw-bold fs-3 text-start">Trái cây tươi <span class="float-end text-success">$10.00</span></h5>
+                      <p class="card-text text-muted text-center">Mâm trái cây tươi theo mùa, nhẹ nhàng và ngon miệng</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            
+            <!-- Thức uống -->
+            <div class="tab-pane fade" id="beverage" role="tabpanel">
+              <div class="row row-cols-1 row-cols-md-3 g-4">
+                <div class="col">
+                  <div class="card h-100 shadow border-0 rounded-4 hover-shadow">
+                    <img src="./assets/images/drink1.avif" class="card-img-top rounded-4" alt="Cà phê" style="height: 300px; object-fit: cover;">
+                    <div class="card-body bg-dark text-white">
+                      <h5 class="card-title fw-bold fs-3 text-start">Cà phê <span class="float-end text-success">$5.00</span></h5>
+                      <p class="card-text text-muted text-center">Cà phê đen, hương vị đậm đà</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="card h-100 shadow border-0 rounded-4 hover-shadow">
+                    <img src="./assets/images/drink2.avif" class="card-img-top rounded-4" alt="Nước ép trái cây" style="height: 300px; object-fit: cover;">
+                    <div class="card-body bg-dark text-white">
+                      <h5 class="card-title fw-bold fs-3 text-start">Nước ép trái cây <span class="float-end text-success">$7.00</span></h5>
+                      <p class="card-text text-muted text-center">Nước ép trái cây tươi, ngọt ngào và bổ dưỡng</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="card h-100 shadow border-0 rounded-4 hover-shadow">
+                    <img src="./assets/images/drink3.avif" class="card-img-top rounded-4" alt="Trà xanh" style="height: 300px; object-fit: cover;">
+                    <div class="card-body bg-dark text-white">
+                      <h5 class="card-title fw-bold fs-3 text-start">Trà xanh <span class="float-end text-success">$4.00</span></h5>
+                      <p class="card-text text-muted text-center">Trà xanh mát lạnh, thanh khiết</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="card h-100 shadow border-0 rounded-4 hover-shadow">
+                    <img src="./assets/images/drink4.avif" class="card-img-top rounded-4" alt="Trà xanh" style="height: 300px; object-fit: cover;">
+                    <div class="card-body bg-dark text-white">
+                      <h5 class="card-title fw-bold fs-3 text-start">Trà xanh <span class="float-end text-success">$4.00</span></h5>
+                      <p class="card-text text-muted text-center">Trà xanh mát lạnh, thanh khiết</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="card h-100 shadow border-0 rounded-4 hover-shadow">
+                    <img src="./assets/images/drink5.avif" class="card-img-top rounded-4" alt="Trà xanh" style="height: 300px; object-fit: cover;">
+                    <div class="card-body bg-dark text-white">
+                      <h5 class="card-title fw-bold fs-3 text-start">Trà xanh <span class="float-end text-success">$4.00</span></h5>
+                      <p class="card-text text-muted text-center">Trà xanh mát lạnh, thanh khiết</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="card h-100 shadow border-0 rounded-4 hover-shadow">
+                    <img src="./assets/images/drink6.avif" class="card-img-top rounded-4" alt="Trà xanh" style="height: 300px; object-fit: cover;">
+                    <div class="card-body bg-dark text-white">
+                      <h5 class="card-title fw-bold fs-3 text-start">Trà xanh <span class="float-end text-success">$4.00</span></h5>
+                      <p class="card-text text-muted text-center">Trà xanh mát lạnh, thanh khiết</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="card h-100 shadow border-0 rounded-4 hover-shadow">
+                    <img src="./assets/images/drink7.avif" class="card-img-top rounded-4" alt="Trà xanh" style="height: 300px; object-fit: cover;">
+                    <div class="card-body bg-dark text-white">
+                      <h5 class="card-title fw-bold fs-3 text-start">Trà xanh <span class="float-end text-success">$4.00</span></h5>
+                      <p class="card-text text-muted text-center">Trà xanh mát lạnh, thanh khiết</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="card h-100 shadow border-0 rounded-4 hover-shadow">
+                    <img src="./assets/images/drink8.avif" class="card-img-top rounded-4" alt="Trà xanh" style="height: 300px; object-fit: cover;">
+                    <div class="card-body bg-dark text-white">
+                      <h5 class="card-title fw-bold fs-3 text-start">Trà xanh <span class="float-end text-success">$4.00</span></h5>
+                      <p class="card-text text-muted text-center">Trà xanh mát lạnh, thanh khiết</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="card h-100 shadow border-0 rounded-4 hover-shadow">
+                    <img src="./assets/images/drink9.avif" class="card-img-top rounded-4" alt="Trà xanh" style="height: 300px; object-fit: cover;">
+                    <div class="card-body bg-dark text-white">
+                      <h5 class="card-title fw-bold fs-3 text-start">Trà xanh <span class="float-end text-success">$4.00</span></h5>
+                      <p class="card-text text-muted text-center">Trà xanh mát lạnh, thanh khiết</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="card h-100 shadow border-0 rounded-4 hover-shadow">
+                    <img src="./assets/images/drink10.avif" class="card-img-top rounded-4" alt="Trà xanh" style="height: 300px; object-fit: cover;">
+                    <div class="card-body bg-dark text-white">
+                      <h5 class="card-title fw-bold fs-3 text-start">Trà xanh <span class="float-end text-success">$4.00</span></h5>
+                      <p class="card-text text-muted text-center">Trà xanh mát lạnh, thanh khiết</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="card h-100 shadow border-0 rounded-4 hover-shadow">
+                    <img src="./assets/images/drink11.avif" class="card-img-top rounded-4" alt="Trà xanh" style="height: 300px; object-fit: cover;">
+                    <div class="card-body bg-dark text-white">
+                      <h5 class="card-title fw-bold fs-3 text-start">Trà xanh <span class="float-end text-success">$4.00</span></h5>
+                      <p class="card-text text-muted text-center">Trà xanh mát lạnh, thanh khiết</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="card h-100 shadow border-0 rounded-4 hover-shadow">
+                    <img src="./assets/images/drink12.avif" class="card-img-top rounded-4" alt="Trà xanh" style="height: 300px; object-fit: cover;">
+                    <div class="card-body bg-dark text-white">
+                      <h5 class="card-title fw-bold fs-3 text-start">Trà xanh <span class="float-end text-success">$4.00</span></h5>
+                      <p class="card-text text-muted text-center">Trà xanh mát lạnh, thanh khiết</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            
+          </div>
+        </div>
+      </section>
+      
+      
+      
+        
+
+        
+        
+
+
+        
+    <!-- 
+    - #FOOTER
+  -->
+
+  <footer
+  class="footer section has-bg-image text-center"
+  style="background-image: url('./assets/images/footer-bg.jpg')"
+>
+  <div class="container">
+    <div class="footer-top grid-list">
+      <div class="footer-brand has-before has-after">
+        <a href="#" class="logo">
+          <img
+            src="./assets/images/logo.svg"
+            width="160"
+            height="50"
+            loading="lazy"
+            alt="grilli home"
+          />
+        </a>
+
+        <address class="body-4">
+          556 Đại lộ Bình Dương, Thành phố Thủ Dầu Một
+        </address>
+
+        <a href="mailto:gotri4018@gmail.com" class="body-4 contact-link"
+          >23050150@student.bdu.edu.vn</a
+        >
+
+        <a href="tel:+88123123456" class="body-4 contact-link"
+          >Đặt bàn ngay : 0979326005</a
+        >
+
+        <p class="body-4">Open : 09:00 AM - 01:00 PM</p>
+
+        <div class="wrapper">
+          <div class="separator"></div>
+          <div class="separator"></div>
+          <div class="separator"></div>
+        </div>
+
+        <p class="title-1">Get News & Offers</p>
+
+        <p class="label-1">
+          Subscribe us & Get <span class="span">25% Off.</span>
+        </p>
+
+        <form action="" class="input-wrapper">
+          <div class="icon-wrapper">
+            <ion-icon name="mail-outline" aria-hidden="true"></ion-icon>
+
+            <input
+              type="email"
+              name="email_address"
+              placeholder="Your email"
+              autocomplete="off"
+              class="input-field"
+            />
+          </div>
+
+          <button type="submit" class="btn btn-secondary">
+            <span class="text text-1">Subscribe</span>
+
+            <span class="text text-2" aria-hidden="true">Subscribe</span>
+          </button>
+        </form>
+      </div>
+
+      <ul class="footer-list">
+        <li>
+          <a href="./index.html" class="label-2 footer-link hover-underline">Home</a>
+        </li>
+
+        <li>
+          <a href="#" class="label-2 footer-link hover-underline">Menus</a>
+        </li>
+
+        <li>
+          <a href="./profile.html" class="label-2 footer-link hover-underline"
+            >About Us</a
+          >
+        </li>
+
+        <li>
+          <a href="./chefs.html" class="label-2 footer-link hover-underline"
+            >Our Chefs</a
+          >
+        </li>
+
+        <li>
+          <a href="#duoi" class="label-2 footer-link hover-underline"
+            >Contact</a
+          >
+        </li>
+      </ul>
+
+      <ul class="footer-list">
+        <li>
+          <a href="https://www.facebook.com/trongtim.khoang.75/" target="_blank" class="label-2 footer-link hover-underline"
+            >Facebook</a
+          >
+        </li>
+
+        <li>
+          <a href="https://www.instagram.com/tuan_maliketh/" target="_blank" class="label-2 footer-link hover-underline"
+            >Instagram</a
+          >
+        </li>
+
+        
+
+        <li>
+          <a href="https://www.youtube.com/watch?v=6uT8wGtB3yQ" class="label-2 footer-link hover-underline"
+            >Youtube</a
+          >
+        </li>
+
+        <li>
+          <a href="https://www.bdu.edu.vn/" target="_blank" class="label-2 footer-link hover-underline"
+            >Google Map</a
+          >
+        </li>
+      </ul>
+    </div>
+
+    <div class="footer-bottom"></div>
+  </div>
+</footer>
+
+    <!-- 
+    - #BACK TO TOP
+  -->
+
+    <a
+      href="#top"
+      class="back-top-btn active"
+      aria-label="back to top"
+      data-back-top-btn
+    >
+      <ion-icon name="chevron-up" aria-hidden="true"></ion-icon>
+    </a>
+
+    <!-- 
+    - custom js link
+  -->
+    <script src="./assets/js/script.js"></script>
+
+    <!-- 
+    - ionicon link
+  -->
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+  </body>
+</html>
